@@ -28,20 +28,17 @@ atualizar o DynamoDB com a opção de escolhida pelo usuário, o não envio do
 parâmetro indica que deve-se utilizar os dados em cache
 
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone https://github.com/abrantes32/api_flask_aws.git
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+# Execute a aplicação em modo de desenvolvimento e acesse a pasta onde se localiza o projeto
+$ python -m venv venv
+$ call venv\scripts\activate
+$ pip install requirements.txt
+$ flask run
 
-# Vá para a pasta server
-$ cd server
+# Veja o resultado da rota /songs no postman ou o que preferir:
+$ localhost:5000/songs?artist_id=349487
 
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
-
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333> 
+# O servidor inciará na porta:5000 - acesse <http://localhost:5000> 
 
 
