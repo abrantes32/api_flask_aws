@@ -3,7 +3,7 @@ ou
 <h1 align="center">API Flask</h1>
 
 <h1 align="center">
-    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+    <a href="https://pt-br.reactjs.org/">🔗 Python</a>
 </h1>
 <p align="center">🚀 API em flask que consome uma API Genius, utilizando DynamoDB </p>
 
